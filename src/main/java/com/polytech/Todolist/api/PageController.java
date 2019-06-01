@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class PageController {
 	@GetMapping("/registerPage")
     public String registerPage() {
-		return "/register.html"; 
+		return "/register"; 
 	}
 	@GetMapping("/")
 	public String home() {
-		return "/index.html";
+		return "/index";
 	}
 	@GetMapping("/todolist")
     public String todolist() {
-		return "/todolist.html"; 
+		return "/todolist"; 
 	}
 }

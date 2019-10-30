@@ -7,10 +7,9 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+
 @SpringBootApplication
-@EnableAutoConfiguration
-@ComponentScan({"com.polytech.Todolist","api"})
+
 public class AppStarter {
     public static void main(String[] args) {
         SpringApplication.run(AppStarter.class);

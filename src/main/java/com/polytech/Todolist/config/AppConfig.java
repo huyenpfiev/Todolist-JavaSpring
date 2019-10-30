@@ -30,11 +30,10 @@ public class AppConfig {
     @Bean
     DataSource dataSource() {
         MysqlDataSource dataSource = new MysqlDataSource();
-        //dataSource.setURL("jdbc:mysql://127.0.0.1:3306/todolist?serverTimezone=UTC");
-        dataSource.setURL("jdbc:mysql://www.db4free.net:3306/todolist11196");
-        dataSource.setUser("thanhhuyen");
-        dataSource.setPassword("Huyendien13-08");
-        dataSource.setDatabaseName("todolist11196");
+        dataSource.setURL("jdbc:mysql://127.0.0.1:3306/todolist?serverTimezone=UTC");
+        dataSource.setUser("root");
+        dataSource.setPassword("password");
+        dataSource.setDatabaseName("todolist");
         return dataSource;
     }
     
